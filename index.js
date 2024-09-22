@@ -28,7 +28,7 @@ const processImage = () => {
     });
 }
 
-app.get('/image-process', async (req, res) => {
+app.get('/image-process', (req, res) => {
   try {
     // PROCESS IMAGE IN THE BACKGROUND
     processImage();

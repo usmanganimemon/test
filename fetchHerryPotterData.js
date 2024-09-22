@@ -1,4 +1,4 @@
-async function fetchHarryPotterData() {
+const fetchHarryPotterData = async () => {
     const baseUrl = 'https://api.potterdb.com/v1';
     
     try {
